@@ -1,0 +1,15 @@
+.directory {
+  width: 253px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.directory:hover {
+  background: #f0f0f0;
+}
+
+.chosen {
+  border-bottom: 2px solid blue;
+}

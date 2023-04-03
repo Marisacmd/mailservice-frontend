@@ -1,0 +1,47 @@
+.mailsOperations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 96px;
+  height: 58.5px;
+}
+
+.selectAllLogo {
+  position: relative;
+  cursor: pointer;
+}
+
+.mailsOperationsLogo {
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.changeDirectoryBlock {
+  position: relative;
+  top: 2px;
+}
+
+.mailsOperationsLogo:hover {
+  background-color: lightgrey;
+}
+
+.selectAllLogo:hover {
+  background-color: lightgrey;
+}
+
+.directoriiesList {
+  height: max-content;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  top: 26px;
+  left: 20px;
+  position: absolute;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  color: #202124;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
